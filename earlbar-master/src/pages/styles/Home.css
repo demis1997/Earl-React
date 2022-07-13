@@ -1,0 +1,168 @@
+/* start of util */
+
+.vertical-line-banner {
+  width: 20%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 40%;
+  border: 3px solid var(--primaryColor);
+}
+
+/* end of util */
+
+/* start of title section css */
+
+.section-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.section-title h4 {
+  font-size: 2rem;
+  letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.section-title div {
+  width: 5rem;
+  height: 5px;
+  margin: 0 auto;
+  background: var(--primaryColor);
+}
+/* end of title section css */
+
+/* start of home header section css*/
+
+.home-header {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.home-header p {
+  text-align: left;
+  color: var(--mainBlack);
+  white-space: pre-line;
+  vertical-align: bottom;
+}
+
+@media screen and (max-width: 800px) {
+  .home-header {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+}
+
+/* end of home header section css*/
+
+/* start of home shisha section css*/
+
+.home-shisha-section {
+  background: url("https://lh3.googleusercontent.com/pw/ACtC-3eI-n0dQ4QwzLOWPSa9yez809eE9ffMffHDzFsx8IzlQcjyKBYeSUcrrZeSo2zcb3yHGQfMdW_3DUc8uPv60IWeMN4WbrTWdCB0qxNKeWQLu9ayxFY1Njq9UxNDFu2M9ixV979mFn5UsWFh57bMN2Pr=w2048-h1366-no?authuser=0")
+    center/cover no-repeat;
+  width: 100%;
+}
+
+.home-shisha-section-col {
+  text-align: center;
+  background-color: rgba(34, 34, 34, 0.6);
+  height: 100%;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  color: var(--mainWhite);
+}
+
+.home-shisha-section-col h1 {
+  padding-top: 3vh;
+  font-size: 2rem;
+}
+.home-shisha-section-col p {
+  font-size: 1.5rem;
+  white-space: pre-line;
+  vertical-align: bottom;
+}
+
+.home-shisha-section .btn-primary-main {
+  margin-bottom: 3vh;
+}
+
+/* end of home shisha section css */
+
+.home-prices-section {
+  width: 100%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.prices-section-button {
+  margin-top: 3vh;
+}
+
+.home-prices-section-col {
+  text-align: center;
+}
+
+.home-prices-section-col h1 {
+  font-size: 2rem;
+}
+.home-prices-section-col p {
+  font-size: 1.5rem;
+  color: var(--mainBlack);
+  white-space: pre-line;
+  vertical-align: bottom;
+}
+
+.home-prices-section-col-drinks {
+  text-align: center;
+  background-color: var(--primaryColor);
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.home-prices-section-col-drinks h1 {
+  font-size: 1.5rem;
+  padding-bottom: 1.2vh;
+}
+
+.home-prices-section-col-drinks h3 {
+  padding-top: 5vh;
+  font-size: 2rem;
+}
+
+.home-prices-section-col-drinks h6 {
+  color: var(--darkGrey);
+  font-size: 1rem;
+}
+
+.home-gallery-section {
+  width: 100%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.home-gallery-section-button {
+  margin-bottom: 3vh;
+}
+
+.home-group-hangout-section {
+  background: url("https://lh3.googleusercontent.com/pw/ACtC-3fU3yTX6e85I3jbkDJkaOa7ryPyLcnViTFZUav5PtYYcNRQc5cohQOYjLjw1HCmskzptJGTHYz9YEOfgHdO5NdNw-fQbNKRtaU4kg07MHzypIIDLP88Ia4IdHTIjC9PrTuQrd8KmXEqA8Qo7TPR1f4k=w2560-h1209-no?authuser=0")
+    center/cover no-repeat;
+  width: 100%;
+}
+
+.home-group-hangout-section-col {
+  text-align: center;
+  background-color: rgba(34, 34, 34, 0.6);
+  height: 100%;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  color: var(--mainWhite);
+}
+
+.home-group-hangout-section-col h1 {
+  padding-top: 3vh;
+  font-size: 2rem;
+}
+.home-group-hangout-section-col p {
+  font-size: 1.5rem;
+  white-space: pre-line;
+  vertical-align: bottom;
+}
